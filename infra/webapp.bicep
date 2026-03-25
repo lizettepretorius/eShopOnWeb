@@ -1,4 +1,4 @@
-param webAppName string = "eshoponweb-lizette" // unique String gets created from az cli instructions
+param webAppName string = 'eshoponweb-lizette' // unique String gets created from az cli instructions
 param sku string = 'S1' // The SKU of App Service Plan
 param location string = resourceGroup().location
 
